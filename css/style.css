@@ -150,7 +150,7 @@ nav a:hover, nav a:focus {
     flex-direction: row;
 }
 
-#ville label {
+#ville i {
     border:0px solid #F2F2F2;
     border-radius: 15px 0px 0px 15px;
     width:55px;
