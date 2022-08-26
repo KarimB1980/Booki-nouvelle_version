@@ -1,0 +1,393 @@
+@media screen and (max-width: 767.5px)
+{
+    .fa, .fas {
+        font-size: 17px;
+    }
+
+    #information {
+        margin-bottom: 30px;
+    }
+
+    #page {
+        font-family: 'Raleway', sans-serif;
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+    #logo {
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    #logo img {
+        width: 20%;
+    }
+
+    #entete {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #liens {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-right: 0px;
+    }
+
+    #selection {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #hebergements {
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+        width: 50%;
+        border-top: 0px solid black;
+        border-bottom : 3px solid #DEEBFF;
+        padding-bottom: 20px;
+    }
+
+    #activites {
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        width: 50%;
+        border-top: 0px solid black;
+        border-bottom : 3px solid #DEEBFF;
+        padding-bottom: 20px;
+    }
+
+    #hebergements:hover, #activites:hover, #hebergements:focus, #activites:focus {
+        border-bottom: 3px solid #0065FC;
+        border-top: 0px solid black;
+    }
+    
+    #mapmarker {
+        height: auto;
+    }
+
+    #ville {
+        width: 80%;
+    }
+
+    #trouver {
+        display: none;
+    }
+
+    #loupe {
+        display: flex;
+        flex: none;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px 10px 10px 10px;
+        width:40px;
+        background-color: #0065FC;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .ville {
+        border:2px solid #F2F2F2;
+        height:37.5px;
+        width: 100%;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #filtre {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    #filtre a {
+        font-size: 15px;
+    }
+
+    .filtrage {
+        margin-right: 1.5%;
+        margin-bottom: 10px;
+    }
+
+    #filtre a:hover, #filtre a:focus {
+        color: #0065FC;
+        font-size: 15px;
+    }
+
+    #economique, #familial, #romantique, #animaux {
+        margin: 0px 20px 20px 0px;
+    }
+
+    #information {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+    }
+
+    #logoinfo {
+        margin-top: 15px;
+    }
+
+    #texteinfo {
+        margin-left: 20px;
+    }
+
+    #marseille {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    #hebergementsEtPopulaires :nth-child(1) { order: 2; }
+    #hebergementsEtPopulaires :nth-child(2) { order: 1; }
+
+    #hebergementsEtPopulaires {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    /* Paramètres Les plus populaires */
+    #populaires {
+        margin-left: 0px;
+        width: 100%;
+        background-color: #F2F2F2;
+        padding-top: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 30px;
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    #titrepopulaires {
+        margin-bottom: 0px;
+    }
+
+    #entetepopulaires
+    {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #logopopulaires {
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    #soleil, #eau, #bleu {
+        flex-direction: row-reverse;
+    }
+
+    .photosoleil, .photoeau, .photobleu {
+        margin-right: 30px;
+    }
+
+    #notesoleil, #noteeau, #notebleu {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end; 
+    }
+
+    .logementpopulaire {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+    
+    .descriptionlogementpopulaire {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .notelogementpopulaire {
+
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: start;
+    }
+    
+    /* Paramètres Hébergements à Marseille */
+    #logements :nth-child(1) { order: 1; }
+    #logements :nth-child(2) { order: 2; }
+    #logements :nth-child(3) { order: 3; }
+
+
+    #logements {
+        background-color: white;
+        padding: 0px;
+        border-radius: 0px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    #hebergementsmarseille :nth-child(1) { order: 1; }
+    #hebergementsmarseille :nth-child(2) { order: 2; }
+    #hebergementsmarseille :nth-child(3) { order: 3; }
+    #hebergementsmarseille :nth-child(4) { order: 4; }
+    #hebergementsmarseille :nth-child(5) { order: 5; }
+    #hebergementsmarseille :nth-child(6) { order: 6; }
+
+
+    #hebergementsmarseille {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap
+    }
+
+    #titrelogements {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cartelogement {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+
+    #cannebiere, #port, #mouettes, #mer, #panier, #amina {
+        height: 400px;
+        width: 700px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        border-radius: 35px 35px 35px 35px;
+        box-shadow: 15px 15px 15px #F2F2F2;
+        margin-bottom: 50px;
+    }
+
+    .photocannebiere, .photoport, .photomouettes, .photomer, .photopanier, .photoamina {
+        max-width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        height: 230px;
+        width: 680px;
+        border-radius: 30px 30px 0px 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #descriptioncannebiere, #descriptionport, #descriptionmouettes, #descriptionmer, #descriptionpanier, #descriptionamina {
+        height: 170px;
+        width: 680px;
+    }
+
+    #titrecannebiere, #titreport, #titremouettes, #titremer, #titrepanier, #titreamina {
+        height: 170px;
+        width: 680px;
+        margin-top: 20px;
+        margin-left: 20px;
+        line-height: 20px;
+    }
+
+    #notecannebiere, #noteport, #notemouettes, #notemer, #notepanier, #noteamina {
+        margin-top: -70px;
+        margin-left: 20px;
+        font-size: 22px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    #afficherplus {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
+
+
+    /* Paramètres Activités à Marseille */
+    #titreactivites {
+        margin-top: 0px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #activitesamarseille {
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    #activitesamarseille :nth-child(1) { order: 1; }
+    #activitesamarseille :nth-child(2) { order: 2; }
+    #activitesamarseille :nth-child(3) { order: 3; }
+    #activitesamarseille :nth-child(4) { order: 4; }
+    #activitesamarseille :nth-child(5) { order: 5; }
+
+
+    #activitesmarseille {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 0px;
+        height: 100%;
+    }
+
+    #vieuxport, #fort, #iles, #calanques, #garde, #champ {
+        height: 250px;
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    #fortiles, #gardelongchamp, #vieuxport, #calanques {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .photovieuxport, .photofort, .photoiles, .photocalanques, .photogarde, .photochamp {
+        object-fit: cover;
+        height: 200px;
+    }
+
+    #titrevieuxport, #titrefort, #titreiles, #titrecalanques, #titregarde, #titrechamp {
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .titrelistefooter {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+    }
+
+    #apropos, #noshebergements, #assistance {
+        margin-right: 0px;
+    }
+}
