@@ -4,7 +4,11 @@ h1, h2 {
 }
 
 h3 {
-    font-size: 20px;
+    /*font-size: 20px;*/
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 2px;
 }
 
 h4 {
@@ -483,7 +487,7 @@ nav a:hover, nav a:focus {
     display: table;
 }
 
-.titreactivitesmarseille h4 {
+.titreactivitesmarseille h3 {
     display: table-cell;
     vertical-align: middle;
 }
@@ -581,8 +585,7 @@ footer {
 }
 
 .titrelistefooter {
-    margin-left: 50px;
-    margin-right: 100px;
-    height: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
     width: 100%;
 }
