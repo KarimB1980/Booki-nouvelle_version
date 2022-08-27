@@ -85,6 +85,7 @@ nav a {
 nav a:hover, nav a:focus {
     color: #0065FC;
     font-size: 20px;
+    transition: 0.2s linear;
 }
 
 /* Paramètres de l'en-tête */
@@ -125,6 +126,7 @@ nav a:hover, nav a:focus {
     cursor: pointer;
     font-size: 15px;
     border-top: 3px solid #0065FC;
+    transition: 0.2s linear;
 }
 
 #hebergements, #activites {
@@ -183,6 +185,7 @@ nav a:hover, nav a:focus {
 .trouver:hover, .trouver:focus {
     font-size: 25px;
     cursor: pointer;
+    transition: 0.2s linear;
 }
 
 
@@ -249,6 +252,7 @@ nav a:hover, nav a:focus {
 #filtre a:hover, #filtre a:focus {
     color: #0065FC;
     font-size: 25px;
+    transition: 0.07s linear;
 }
 
 /* Paramètres de la ligne d'information */
@@ -324,6 +328,7 @@ nav a:hover, nav a:focus {
     box-shadow: 5px 5px 5px #0065FC;
     color: #0065FC;
     cursor: pointer;
+    transition: 0.2s linear;
 }
 
 .photologement {
@@ -408,6 +413,7 @@ nav a:hover, nav a:focus {
     box-shadow: 5px 5px 5px #0065FC;
     color: #0065FC;
     cursor: pointer;
+    transition: 0.2s linear;
 }
 
 .photologementpopulaire {
@@ -481,6 +487,7 @@ nav a:hover, nav a:focus {
     box-shadow: 5px 5px 5px #0065FC;
     cursor: pointer;
     color: #0065FC;
+    transition: 0.2s linear;
 }
 
 .photovieuxport, .photocalanques {
@@ -591,6 +598,10 @@ footer {
     background-color: #F2F2F2;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.titrefooter {
+    margin-bottom: 10px;
 }
 
 .titrelistefooter {
