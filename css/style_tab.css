@@ -73,26 +73,12 @@
         width: 100%;
     }
 
-    #trouver {
-        display: none;
-    }
-
-    #loupe {
-        display: flex;
-        flex: none;
-        justify-content: center;
-        align-items: center;
-        border-radius: 10px 10px 10px 10px;
-        width:40px;
-        background-color: #0065FC;
-        color: white;
-        font-size: 15px;
-        font-weight: bold;
+    .trouver {
+        width: 100%;
     }
 
     .ville {
         border:2px solid #F2F2F2;
-        height:37.5px;
         width: 100%;
         font-size: 15px;
         font-weight: bold;
@@ -125,11 +111,6 @@
     #information {
         display: flex;
         flex-direction: row;
-        align-items: start;
-    }
-
-    #logoinfo {
-        margin-top: 15px;
     }
 
     #texteinfo {
